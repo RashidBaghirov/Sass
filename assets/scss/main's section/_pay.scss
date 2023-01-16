@@ -1,0 +1,71 @@
+#pay{
+    background-color: #FAF9F8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .container{
+        .row{
+            .borderr{
+                width: 300px !important;
+                height: 500px !important;
+                background-color: white;
+                border: 1px solid rgb(206, 204, 204);
+                padding: 30px;
+                .text{
+                    ul{
+                        margin-top: 5px;
+                        padding: 25px 0 25px 0;
+                        list-style: none;
+                        li{
+                            margin-top: 5px;
+                        }
+                        .checked{
+                           &::before{
+                            content: "\2713";
+                            color: green;
+                            margin-right: 5px;
+                           }
+                        }
+                        .cancel{
+                            &::before{
+                                content: "\2715";
+                                margin-right: 5px;
+                            }
+                            color: gray;
+                        }
+                        
+                    }
+                    .star{
+                        &::before{
+                            content: "\2B50";
+                            color: yellow;
+                        }
+                    }
+                    small{
+                        color: rgb(78, 77, 77);
+                    }
+                    span{
+                        font-size: 14px;
+                        color: gray;
+                    }
+                    h1{
+                        font-size: 52px;
+                        margin: 5px 0 5px 0;
+                    }
+                }
+                .button{
+                    text-align: center;
+                    button{
+                        width: 170px;
+                        height: 35px;
+                        border: 1px solid #0d6efd ;
+                        transition: 0.5s;
+                        &:hover{
+                            background-color: #0d6efd;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+#customer{
+    .container{
+        padding: 25px;
+        .title{
+            text-align: center;
+        }
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .title{
+                margin-top: 15px;
+                width: 550px !important;
+                height: 150px !important;
+                background-color: white;
+                border: 1px solid rgb(206, 204, 204);
+                padding: 25px;
+                .title-text{
+                    display: flex;
+                    svg{
+                        color: #0d6efd;
+                    }
+                    .text{
+                        span{
+                            color: gray;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+

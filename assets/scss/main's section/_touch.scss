@@ -1,0 +1,29 @@
+#touch{
+    background-color: #FAF9F8;
+    .container{
+        padding-top: 55px;
+        padding-bottom: 55px;
+        .title{
+            .icon{
+                svg{
+                    color:#0d6efd
+                }
+            }
+            text-align: center;
+        }
+        .row {
+            form{
+                .form-tag{
+                    margin-top: 15px;
+                    // position: relative;
+                    // &>label{
+                    //     position: absolute;
+                    //     top: 0;
+                    //     left: 0;
+                    //     height: 100%;
+                    // }
+                }
+            }
+        }
+    }
+}
